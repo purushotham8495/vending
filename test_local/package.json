@@ -1,0 +1,17 @@
+{
+  "name": "esp32-mock-server",
+  "version": "1.0.0",
+  "description": "Mock server for testing ESP32 locally",
+  "main": "mock_server.js",
+  "scripts": {
+    "start": "node mock_server.js",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": ["esp32", "testing", "mock", "iot"],
+  "author": "Vending Control System",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2"
+  }
+}
